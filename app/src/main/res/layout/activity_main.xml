@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="2dp"
+    tools:context=".MainActivity">
+
+    <Button android:id="@+id/btn_save_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存入外存"
+        android:textSize="20sp"/>
+
+    <Button android:id="@+id/btn_read_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="读取外存"
+        android:textSize="20sp"/>
+
+    <Button android:id="@+id/btn_weaher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="天气预报"
+        android:textSize="20sp"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
